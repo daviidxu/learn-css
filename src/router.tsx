@@ -7,8 +7,8 @@ import App from "./pages/App";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/">
-      <Route path="dashboard" element={<App />} />
+    <Route>
+      <Route index element={<App />} />
     </Route>,
   ),
 );
